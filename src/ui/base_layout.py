@@ -5,22 +5,18 @@ def style_background_home():
         <style>
                 .stApp{
                     background: #5865F2 !important;
+                    color: #35348c !important;
                 }
                 .stApp div[data-testid="stColumn"]{
                     background-color:#E0E3FF !important;
                     padding: 2rem 3rem !important;
-                    
+                    margin-left: 1rem !important;
                     border-radius: 5rem !important;
                     max-width: 300px !important;
-                
-
                 }
                 .block-container {
                     padding-bottom: 0rem !important;
                 }
-
-<style>
-.st-
         </style>
                 """
                 ,unsafe_allow_html=True)
@@ -30,6 +26,7 @@ def style_background_dashboard():
         <style>
                 .stApp{
                     background-color: #E0E3FF !important;
+                    
                 }
         </style>
                 """
@@ -62,18 +59,19 @@ def style_base_layout():
                 line-height: 1.1 !important;
             }
             h2{ /* I am student */
-                font-size: 1.9rem !important;
+                font-size: 1.8rem !important;
                 line-height: 0.9 !important;
                 font-weight: 350 !important;
-                color: #35348c !important;
+                
             }
             
             h3, 4, p {
+                
                 font-family: 'Outfit' !important;
             }
             
             /* primary button */
-            button{ 
+            button{
                 background-color: #5865F2 !important;
                 border-radius: 1.5rem  !important;
                 color: white !important;
