@@ -18,4 +18,9 @@ pillow # helps in preprocessing images, + more features for image dealing
 
 streamlit
 
+librosa 
+resemblyzer
+
+dlib
+
 
